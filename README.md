@@ -1,6 +1,6 @@
 # EPL player yellow and red card history
 
-# binder link to go here
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/colmquinn/epl_discipline/main?urlpath=/proxy/5006/epl_discipline_app/main.html)
 
 # describe plot
 
