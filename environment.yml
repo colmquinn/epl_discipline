@@ -1,7 +1,7 @@
 dependencies:
   - bokeh
   - pandas
-  - sklearn
+  - scikit-learn
   - numpy
   - pip
   - pip:
