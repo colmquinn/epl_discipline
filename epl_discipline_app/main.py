@@ -1,6 +1,6 @@
 from os.path import join, dirname
 import pandas as pd
-from bokeh.plotting import ColumnDataSource, figure, output_file, output_notebook, show
+from bokeh.plotting import ColumnDataSource, figure, curdoc
 import numpy as np
 from sklearn.linear_model import LinearRegression
 from bokeh.models import Slope
@@ -41,4 +41,5 @@ p = figure(plot_width=800, plot_height=400, tooltips=TOOLTIPS,
 
 p.circle('x', 'y', size='redsize', fill_alpha=0.5, source=source)
 p.add_layout(regression_line)
-show(p)
+curdoc().add_root(p)
+curdoc().title = "EPL Discipline"
