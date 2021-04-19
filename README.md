@@ -1,7 +1,9 @@
-# EPL player yellow and red card history
+## EPL player yellow and red card history
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/colmquinn/epl_discipline/main?urlpath=/proxy/5006/epl_discipline_app/main.html)
+Run plot by clicking on the binder button.
 
-# describe plot
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/colmquinn/epl_discipline/main?urlpath=%2Fproxy%2F5006%2Fepl_discipline_app)
 
-# using tyrone_mings/transfermarkt data etc, correct at international break etc
+* Plot shows yellow cards against minures played in the English Premier League. Size indicates number of red cards.
+* Data taken from [transfermarkt](https://www.transfermarkt.com/) using my [fork](https://github.com/colmquinn/tyrone_mings) of the [tyrone_mings](https://github.com/FCrSTATS/tyrone_mings) package.
+* Data correct up to the March 2021 international break.
