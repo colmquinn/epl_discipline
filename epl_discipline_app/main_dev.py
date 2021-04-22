@@ -37,7 +37,7 @@ intercept = model.intercept_
 regression_line = Slope(gradient=slope, y_intercept=intercept, line_color="red")
 
 p = figure(plot_width=800, plot_height=400, tooltips=TOOLTIPS,
-           title="EPL Discipline", x_axis_label="Minutes played", y_axis_label="Yellow cards")
+           title="EPL Discipline (dev version)", x_axis_label="Minutes played", y_axis_label="Yellow cards")
 
 p.circle('x', 'y', size='redsize', fill_alpha=0.5, source=source)
 p.add_layout(regression_line)
