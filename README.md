@@ -1,6 +1,6 @@
 ## EPL player yellow and red card history
 
-Run plot by clicking on the binder button.
+Run plot by clicking on the binder button or locally with `bokeh serve epl_discipline_app`
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/colmquinn/epl_discipline/main?urlpath=%2Fproxy%2F5006%2Fepl_discipline_app)
 
