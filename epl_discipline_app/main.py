@@ -15,7 +15,7 @@ source = ColumnDataSource(data=dict(
     desc=discipline['player_name'],
     yellows=discipline['total_yellow'],
     reds=discipline['total_red'],
-    redsize=discipline['redsize'],
+    redsize=discipline['total_red'].apply(lambda x: x+5),
     position=discipline['position_mapped']
 ))
 
@@ -45,6 +45,7 @@ p = figure(plot_width=800, plot_height=400, tooltips=TOOLTIPS,
            title="EPL Discipline", x_axis_label="Minutes played", y_axis_label="Yellow cards")
 
 p.circle('x', 'y', size='redsize', fill_alpha=0.5, source=source, line_color='white', fill_color=color_map, legend_field='position')
+p.legend.location = "top_left"
 p.add_layout(regression_line)
 curdoc().add_root(p)
 curdoc().title = "EPL Discipline"
